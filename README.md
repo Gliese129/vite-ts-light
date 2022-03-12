@@ -5,7 +5,7 @@ A simple template for vite, including vite, vue3, ts, sass, vuex, router, eslint
 ### Download
 
 ```command
-npx degit gliese129/vite-vue-ts-light#main ${project-name}
+npx degit Gliese129/vite-vue-ts-light#main ${project-name}
 ```
 
 ```command
