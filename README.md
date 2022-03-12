@@ -15,10 +15,10 @@ yarn install
 
 ### Tips
 
-1. Default proxy is '/api' → localhost:8080 (vite.config.js→server→proxy)
-2. Default port is 80 and "open in browser" is true
-3. reactivityTransform is true, which means you can use ref sugar(vite.config.js→plugins→vue→scripts)
-4. Default path alias is '@' → 'src
+1. default proxy: /api → localhost:8080
+2. default port: 80
+3. "reactivityTransform" is true, which means you can use ref sugar
+4. default path alias: @ → src
 5. In order to use axios, you should use
     ```ts
     import axios from '@/utils/service'
