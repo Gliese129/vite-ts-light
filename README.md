@@ -19,7 +19,7 @@ yarn install
 2. Default port is 80 and "open in browser" is true
 3. reactivityTransform is true, which means you can use ref sugar(vite.config.js→plugins→vue→scripts)
 4. Default path alias is '@' → 'src
-5. In order to use axios, you use use
+5. In order to use axios, you should use
     ```ts
     import axios from '@/utils/service'
     ```
