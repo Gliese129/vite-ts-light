@@ -1,0 +1,44 @@
+{
+	"name": "vite-vue-ts-light",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vite preview",
+		"build": "vite build",
+		"lint": "vue-cli-service lint",
+		"dev": "vite"
+	},
+	"dependencies": {
+		"axios": "^0.26.1",
+		"core-js": "^3.6.5",
+		"vue": "^3.0.0",
+		"vue-class-component": "^8.0.0-0",
+		"vue-router": "^4.0.0-0",
+		"vuex": "^4.0.0-0"
+	},
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.17.0",
+		"@typescript-eslint/eslint-plugin": "^4.18.0",
+		"@typescript-eslint/parser": "^4.18.0",
+		"@vitejs/plugin-vue": "^2.2.4",
+		"@volar/experimental": "^0.31.1",
+		"@vue/cli-plugin-babel": "~4.5.13",
+		"@vue/cli-plugin-eslint": "~4.5.13",
+		"@vue/cli-plugin-router": "~4.5.13",
+		"@vue/cli-plugin-typescript": "~4.5.13",
+		"@vue/cli-plugin-vuex": "~4.5.13",
+		"@vue/cli-service": "~4.5.13",
+		"@vue/compiler-sfc": "^3.0.0",
+		"@vue/eslint-config-prettier": "^6.0.0",
+		"@vue/eslint-config-typescript": "^7.0.0",
+		"eslint": "^8.11.0",
+		"eslint-config-alloy": "^4.5.1",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-vue": "^7.0.0",
+		"prettier": "^2.2.1",
+		"sass": "^1.26.5",
+		"sass-loader": "^8.0.2",
+		"typescript": "~4.1.5",
+		"vite": "^2.8.6"
+	}
+}
