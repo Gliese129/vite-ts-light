@@ -1,5 +1,5 @@
 <template>
-	<div class="home">If you see this page, it means that the application is working.</div>
+	<div class="home">If you see this page, your application is working.</div>
 </template>
 
 <script lang="ts" setup></script>
