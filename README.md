@@ -1,18 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# vite-vue-ts-light
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple template for vite, including vite, vue3, ts, sass, vuex, router, eslint, prettier, axios
 
-## Recommended IDE Setup
+### Download
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+```command
+npx degit Gliese129/vite-vue-ts-light#main ${project-name}
+```
 
-## Type Support For `.vue` Imports in TS
+```command
+cd ${project-name}
+yarn install
+```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+### Tips
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+1. default proxy: /api → localhost:8080
+2. default port: 80
+3. "reactivityTransform" is true, which means you can use ref sugar
+4. default path alias: @ → src
+5. In order to use axios, you should use
+    ```ts
+    import axios from '@/utils/service'
+    ```
+    instead of
+    ```ts
+    import axios from 'axios'
+    ```
+6. It's recommended to use volar
